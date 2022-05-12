@@ -1,0 +1,31 @@
+POST http://localhost:3000/v1/movie/add
+Content-Type: application/json
+
+{
+    "movieName": "Rahul",
+    "movieRating": 5,
+    "movieYear" : 2021
+}
+
+###
+GET  http://localhost:3000/v1/movie/getallmovies
+Content-Type: application/json
+
+###
+POST http://localhost:3000/v1/movie/update
+Content-Type: application/json
+
+{
+    "movieId": "714",
+    "movieName": "Josh",
+    "movieRating": 3,
+    "movieYear": 1998
+}
+
+###
+GET  http://localhost:3000/v1/movie/rating/5
+Content-Type: application/json
+
+###
+GET  http://localhost:3000/v1/movie/year/2022
+Content-Type: application/json

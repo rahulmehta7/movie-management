@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\SCM\Maersk\movie-management\__tests__\routes\app.js">
+    <testCase name="movie-management Returns 200 /health" duration="37"/>
+    <testCase name="movie-management Returns 404 with unknown json request" duration="7"/>
+  </file>
+  <file path="C:\SCM\Maersk\movie-management\__tests__\routes\routes\movies.js">
+    <testCase name="movie-management movie-management /v1/movie/add POST query success" duration="68"/>
+    <testCase name="movie-management movie-management /v1/movie/add POST query falure - Minimum 2 alphanumeric value for movie Id required" duration="11"/>
+    <testCase name="movie-management movie-management /v1/movie/add POST query falure - Maximum 80 alphanumeric value for movie Id required" duration="5"/>
+    <testCase name="movie-management movie-management /v1/movie/getallmovies GET query success" duration="12"/>
+    <testCase name="movie-management movie-management /v1/movie/rating/:movieRating GET query success" duration="6"/>
+    <testCase name="movie-management movie-management /v1/movie/rating/:movieRating GET query failure" duration="5"/>
+    <testCase name="movie-management movie-management /v1/movie/year/:movieYear GET query success" duration="6"/>
+    <testCase name="movie-management movie-management /v1/movie/year/:movieYear GET query failure" duration="7"/>
+    <testCase name="movie-management movie-management /v1/movie/update POST query success" duration="16"/>
+    <testCase name="movie-management movie-management /v1/movie/update POST query movie not exist failed" duration="7"/>
+  </file>
+</testExecutions>

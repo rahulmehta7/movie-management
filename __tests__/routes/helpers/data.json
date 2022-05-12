@@ -1,0 +1,30 @@
+{
+    "test_movie" : {
+        "movieName" : "testmoviename",
+        "movieRating": 3,
+        "movieYear" : 2021
+    },
+    "min_validation_failed_movie_name" : {
+        "movieName" : "A",
+        "movieRating": 3,
+        "movieYear" : 2021
+    },
+    "max_validation_failed_movie_name" : {
+        "movieName" : "testfdfdfdfdfgfgfgfgfgfgfgfgfgfgfgfffdgfdghgdfhgfhgffgfdgdfgdfgddfdhghfgsfgdfgghfghfdjhjfghkgffgjkghjkjhkghjkghjk",
+        "movieRating": 3,
+        "movieYear" : 2021	
+    },
+
+    "test_update_movie" : {
+        "movieId" : "123",
+        "movieName" : "testmovienameupdate",
+        "movieRating": 4,
+        "movieYear" : 2021
+    },  
+    "test_update_movie_not_exist" : {
+        "movieId" : "124",
+        "movieName" : "testmovienameupdate",
+        "movieRating": 3,
+        "movieYear" : 2021
+    }        
+}

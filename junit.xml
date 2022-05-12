@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" time="4.172">
+  <testsuite name="movie-management" errors="0" failures="0" skipped="0" timestamp="2022-05-12T08:51:01" time="3.09" tests="2">
+    <testcase classname="movie-management Returns 200 /health" name="movie-management Returns 200 /health" time="0.037">
+    </testcase>
+    <testcase classname="movie-management Returns 404 with unknown json request" name="movie-management Returns 404 with unknown json request" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="movie-management" errors="0" failures="0" skipped="0" timestamp="2022-05-12T08:51:01" time="3.118" tests="10">
+    <testcase classname="movie-management movie-management /v1/movie/add POST query success" name="movie-management movie-management /v1/movie/add POST query success" time="0.068">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/add POST query falure - Minimum 2 alphanumeric value for movie Id required" name="movie-management movie-management /v1/movie/add POST query falure - Minimum 2 alphanumeric value for movie Id required" time="0.011">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/add POST query falure - Maximum 80 alphanumeric value for movie Id required" name="movie-management movie-management /v1/movie/add POST query falure - Maximum 80 alphanumeric value for movie Id required" time="0.005">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/getallmovies GET query success" name="movie-management movie-management /v1/movie/getallmovies GET query success" time="0.012">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/rating/:movieRating GET query success" name="movie-management movie-management /v1/movie/rating/:movieRating GET query success" time="0.006">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/rating/:movieRating GET query failure" name="movie-management movie-management /v1/movie/rating/:movieRating GET query failure" time="0.005">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/year/:movieYear GET query success" name="movie-management movie-management /v1/movie/year/:movieYear GET query success" time="0.006">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/year/:movieYear GET query failure" name="movie-management movie-management /v1/movie/year/:movieYear GET query failure" time="0.007">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/update POST query success" name="movie-management movie-management /v1/movie/update POST query success" time="0.016">
+    </testcase>
+    <testcase classname="movie-management movie-management /v1/movie/update POST query movie not exist failed" name="movie-management movie-management /v1/movie/update POST query movie not exist failed" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>

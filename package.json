@@ -1,0 +1,30 @@
+{
+  "name": "movie-management",
+  "version": "1.0.0",
+  "description": "Movie management service",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Rahul Mehta <rahul.mht2509@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.6",
+    "random-string-generator": "^1.0.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-junit": "^11.0.1",
+    "jest-sonar-reporter": "^2.0.0",
+    "mongodb-memory-server": "^6.9.3",
+    "nodemon": "^2.0.15"
+  }
+}
