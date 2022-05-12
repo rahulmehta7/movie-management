@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "nodemon app.js",
+    "start": "node app.js",
     "test": "jest"
   },
   "author": "Rahul Mehta <rahul.mht2509@gmail.com>",
